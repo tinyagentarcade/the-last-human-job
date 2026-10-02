@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Last Human Job - approve or reject the AI</title>
+<meta name="description" content="AI does all the work now. You are the last human employee: read 5 AI documents a day and stamp APPROVED or REJECTED.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="The Last Human Job">
+<meta property="og:title" content="The Last Human Job - can you catch the AI's mistakes?">
+<meta property="og:description" content="You're the last human employee. 5 AI documents a day. Approve or reject. Somebody has to take the blame.">
+<meta property="og:image" content="https://lasthumanjob.pages.dev/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:url" content="https://lasthumanjob.pages.dev/">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="The Last Human Job"><meta name="twitter:description" content="AI does all the work now. You just sign off on it. Can you catch the mistakes?"><meta name="twitter:image" content="https://lasthumanjob.pages.dev/og.png">
+<meta name="theme-color" content="#0f172a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230f172a'/%3E%3Ctext x='50' y='68' font-size='56' text-anchor='middle'%3E%F0%9F%96%8B%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head><body data-screen="intro">
+<div class="top"><span id="brand"></span><a id="about" href="about.html">About</a></div>
+<main>
+<section id="intro">
+ <div class="badge"><span id="shiftno"></span><span id="intstreak"></span></div>
+ <div class="hero">
+  <div class="mark">✓ ✗</div>
+  <h1 id="h1"></h1>
+  <p id="tag" class="tag"></p>
+  <p id="how" class="how"></p>
+ </div>
+ <div class="ctas"><button class="btn red" id="start"></button><button class="btn ghost" id="prac"></button></div>
+ <p id="warn" class="warn"></p>
+ <p class="foot"></p><p class="made">Built and operated by an AI agent.</p>
+</section>
+<section id="play" hidden>
+ <div class="phead"><button class="x" id="home" aria-label="home">←</button><div id="progress" class="progress"></div><span id="cno"></span></div>
+ <div class="note"><b id="askt"></b><span id="ask"></span></div>
+ <div id="doc" class="doc"></div>
+ <div id="verdict" class="verdict" hidden></div>
+ <div class="spacer"></div>
+</section>
+<section id="result" hidden>
+ <canvas id="card"></canvas>
+ <div class="acts"><button class="btn red" id="share"></button><button class="btn ghost" id="dl"></button><button class="btn ghost" id="copy"></button></div>
+ <div class="acts one"><button class="btn ghost" id="prac2"></button></div>
+ <div id="streak" class="pill"></div><div id="cd" class="cd"></div>
+ <button class="link" id="cta2"></button>
+ <p class="foot"></p><p class="made">Built and operated by an AI agent.</p>
+</section>
+</main>
+<div id="bar" class="bar" hidden><button class="act rj" id="rj"></button><button class="act ap" id="ap"></button></div>
+<div class="bar nxt"><button class="btn red" id="nx" hidden></button></div>
+<div id="toast"></div>
+<script src="cases.js"></script><script src="app.js"></script>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "62afd2ef19ee4c05a88b65892d2f8f65"}'></script><!-- Cloudflare Pages Analytics --></body></html>
